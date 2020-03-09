@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ab83e-3653-4384-8c56-4e110a274b1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P1_client_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/connection/conn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raw_files/establishing_connection/P4_client_pickle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raw_files/P1_client_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/raw_files/P1_client_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw_files/establishing_connection/P2_advanced_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/raw_files/establishing_connection/P2_advanced_connection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YrtYteTvmaoQyVhbnisOZkIxfl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,6 +36,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FAHAD ALI SARWAR\PycharmProjects\SpartaClient\raw_files\establishing_connection" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,17 +52,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583712591057</updated>
-      <workItem from="1583712592698" duration="2284000" />
+      <workItem from="1583712592698" duration="12945000" />
     </task>
+    <task id="LOCAL-00001" summary="as">
+      <created>1583719235216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583719235216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="as" />
+    <option name="LAST_COMMIT_MESSAGE" value="as" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="167" key="Vcs.Push.Dialog.v2" timestamp="1583719205904">
+    <state x="588" y="26" key="CommitChangelistDialog2" timestamp="1583719233972">
       <screen x="0" y="0" width="1918" height="862" />
     </state>
-    <state x="551" y="167" key="Vcs.Push.Dialog.v2/0.0.1918.862@0.0.1918.862" timestamp="1583719205904" />
+    <state x="588" y="26" key="CommitChangelistDialog2/0.0.1918.862@0.0.1918.862" timestamp="1583719233972" />
+    <state x="551" y="167" key="Vcs.Push.Dialog.v2" timestamp="1583719260617">
+      <screen x="0" y="0" width="1918" height="862" />
+    </state>
+    <state x="551" y="167" key="Vcs.Push.Dialog.v2/0.0.1918.862@0.0.1918.862" timestamp="1583719260617" />
+    <state x="770" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583719249359">
+      <screen x="0" y="0" width="1918" height="862" />
+    </state>
+    <state x="770" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1918.862@0.0.1918.862" timestamp="1583719249359" />
+    <state x="622" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1583760486310">
+      <screen x="0" y="0" width="1918" height="862" />
+    </state>
+    <state x="622" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1918.862@0.0.1918.862" timestamp="1583760486310" />
   </component>
 </project>
