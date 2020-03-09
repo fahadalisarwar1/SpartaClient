@@ -16,3 +16,6 @@ def receive_data(skt):
     data_in_bytes = skt.recv(1024)
     data = data_in_bytes.decode("utf-8")
     return data
+
+def close(skt):
+    skt.close()
