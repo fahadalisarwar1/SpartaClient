@@ -1,0 +1,2 @@
+# SpartaClient
+ Client for Sparta!
