@@ -7,7 +7,9 @@ if __name__ == "__main__":
 
     address = (serverIP, server_port)
 
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
+    conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    conn.connect(address)
+    msg = conn.recv(1024)
+    print(msg.decode("utf-8"))
 
 
