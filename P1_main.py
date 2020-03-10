@@ -7,7 +7,8 @@ def selected_option(socket):
     user_input = receive_data(socket)
     print("[+] User selected : ", user_input)
     if user_input == "1":
-        run_command()
+        run_command(socket)
+
     elif user_input == "2":
         print("[+] Downloading File")
     elif user_input == "99":
