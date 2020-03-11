@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ab83e-3653-4384-8c56-4e110a274b1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/features/privilage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/features/transfer_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raw_files/P1_upload_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/connection/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/connection/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/features/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/features/command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raw_files/establishing_connection/P1_client_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raw_files/establishing_connection/P2_advanced_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raw_files/establishing_connection/P4_client_pickle.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />

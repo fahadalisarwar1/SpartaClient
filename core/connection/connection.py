@@ -1,8 +1,14 @@
 import socket
 import pickle
+import os
 
 
 HEADER_SIZE = 10
+
+
+CHUNK_SIZE = 4 * 1024
+END_DELIMETER = "*END_OF_FILE*"
+
 
 class ClientConnection:
     def __init__(self):
@@ -40,6 +46,27 @@ class ClientConnection:
                     break
                 file.write(data)
             print("[+] Successfully downloaded the file")
+
+    def receive_file(self):
+        file_name = self.receive_data()
+        print(file_name)
+        path_dir, actual_file_name = os.path.split(file_name)
+        print("actual :", actual_file_name)
+        with open(actual_file_name, "wb") as file:
+            while True:
+                bits = self.socket.recv(CHUNK_SIZE)
+                if bits.endswith(END_DELIMETER.encode()):
+                    file.write(bits[:-len(END_DELIMETER)])
+                    print("[+] Completed Transfer")
+                    break
+                if "NOT_FOUND".encode() in bits:
+                    print("[-] Unable to locate file")
+                    break
+                file.write(bits)
+
+
+
+
 
     def Close(self):
         self.socket.close()

@@ -13,7 +13,7 @@ def handleConnection(my_socket):
             run_command(my_socket)
         elif user_option == "2":
             print("\t\t[+] Downloading Files from hacker")
-            download_files(my_socket)
+            my_socket.receive_file()
         elif user_option == "3":
             print("\t\t[+] Uploading Files to hacker")
         elif user_option == "4":
