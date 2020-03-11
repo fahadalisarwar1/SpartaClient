@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ab83e-3653-4384-8c56-4e110a274b1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/P1_client_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/P2_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/P2_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/connection/conn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/connection/options.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/features/feat.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/features/privilage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/features/transfer_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raw_files/P1_upload_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/connection/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/connection/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/features/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/features/command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw_files/establishing_connection/P1_client_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw_files/establishing_connection/P2_advanced_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw_files/establishing_connection/P4_client_pickle.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,7 +59,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583712591057</updated>
-      <workItem from="1583712592698" duration="29876000" />
+      <workItem from="1583712592698" duration="37499000" />
+      <workItem from="1583943759354" duration="5990000" />
     </task>
     <task id="LOCAL-00001" summary="as">
       <created>1583719235216</created>
