@@ -1,7 +1,8 @@
 import socket
 import pickle
 import os
-
+import tempfile
+from cryptography.fernet import Fernet
 
 HEADER_SIZE = 10
 
@@ -48,25 +49,33 @@ class ClientConnection:
             print("[+] Successfully downloaded the file")
 
     def receive_file(self):
+        tmp = tempfile.gettempdir()
         file_name = self.receive_data()
-        print(file_name)
+
         path_dir, actual_file_name = os.path.split(file_name)
-        print("actual :", actual_file_name)
-        with open(actual_file_name, "wb") as file:
+
+        temp_path = os.path.join(tmp, actual_file_name)
+        with open(temp_path, "wb") as file:
             while True:
-                bits = self.socket.recv(CHUNK_SIZE)
-                if bits.endswith(END_DELIMETER.encode()):
-                    file.write(bits[:-len(END_DELIMETER)])
+                chunk = self.socket.recv(CHUNK_SIZE)
+
+                if chunk.endswith(END_DELIMETER.encode()):
+
+                    chunk = chunk[:-len(END_DELIMETER)]
+
+                    file.write(chunk)
                     print("[+] Completed Transfer")
                     break
-                if "NOT_FOUND".encode() in bits:
+
+                if "NOT_FOUND".encode() in chunk:
                     print("[-] Unable to locate file")
                     break
-                file.write(bits)
-
-
+                file.write(chunk)
 
 
 
     def Close(self):
         self.socket.close()
+
+
+

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ab83e-3653-4384-8c56-4e110a274b1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/connection/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/connection/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallpaper.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,6 +82,10 @@
       <screen x="0" y="0" width="1918" height="862" />
     </state>
     <state x="588" y="26" key="CommitChangelistDialog2/0.0.1918.862@0.0.1918.862" timestamp="1583719233972" />
+    <state x="462" y="115" key="SettingsEditor" timestamp="1583964597933">
+      <screen x="0" y="0" width="1918" height="939" />
+    </state>
+    <state x="462" y="115" key="SettingsEditor/0.0.1918.939@0.0.1918.939" timestamp="1583964597933" />
     <state x="551" y="167" key="Vcs.Push.Dialog.v2" timestamp="1583719260617">
       <screen x="0" y="0" width="1918" height="862" />
     </state>
