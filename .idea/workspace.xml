@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ab83e-3653-4384-8c56-4e110a274b1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/features/persistance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/connection/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/connection/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/features/transfer_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/features/transfer_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fahad/wallpaper.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw_files/P1_upload_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/features/monitoring.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +40,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UAC_bypass/WinPwnage" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\FAHAD ALI SARWAR\PycharmProjects\SpartaClient" />
-      <recent name="C:\Users\FAHAD ALI SARWAR\PycharmProjects\SpartaClient\fahad" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\FAHAD ALI SARWAR\PycharmProjects\SpartaClient\fahad" />
       <recent name="C:\Users\FAHAD ALI SARWAR\PycharmProjects\SpartaClient\raw_files\establishing_connection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FAHAD ALI SARWAR\PycharmProjects\SpartaClient" />
+      <recent name="C:\Users\FAHAD ALI SARWAR\PycharmProjects\SpartaClient\fahad" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -60,7 +66,7 @@
       <workItem from="1583712592698" duration="37499000" />
       <workItem from="1583943759354" duration="5990000" />
       <workItem from="1583972185723" duration="9358000" />
-      <workItem from="1584015359438" duration="1111000" />
+      <workItem from="1584015359438" duration="12003000" />
     </task>
     <task id="LOCAL-00001" summary="as">
       <created>1583719235216</created>
@@ -80,6 +86,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="as" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="703" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584018566759">
+      <screen x="0" y="0" width="1918" height="939" />
+    </state>
+    <state x="703" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1918.939@0.0.1918.939" timestamp="1584018566759" />
     <state x="689" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583841071155">
       <screen x="0" y="0" width="1918" height="862" />
     </state>
@@ -88,10 +98,14 @@
       <screen x="0" y="0" width="1918" height="862" />
     </state>
     <state x="588" y="26" key="CommitChangelistDialog2/0.0.1918.862@0.0.1918.862" timestamp="1583719233972" />
-    <state x="462" y="115" key="SettingsEditor" timestamp="1583964597933">
+    <state x="739" y="227" key="FileChooserDialogImpl" timestamp="1584019961623">
       <screen x="0" y="0" width="1918" height="939" />
     </state>
-    <state x="462" y="115" key="SettingsEditor/0.0.1918.939@0.0.1918.939" timestamp="1583964597933" />
+    <state x="739" y="227" key="FileChooserDialogImpl/0.0.1918.939@0.0.1918.939" timestamp="1584019961623" />
+    <state x="462" y="115" key="SettingsEditor" timestamp="1584030178119">
+      <screen x="0" y="0" width="1918" height="939" />
+    </state>
+    <state x="462" y="115" key="SettingsEditor/0.0.1918.939@0.0.1918.939" timestamp="1584030178119" />
     <state x="551" y="167" key="Vcs.Push.Dialog.v2" timestamp="1583719260617">
       <screen x="0" y="0" width="1918" height="862" />
     </state>
