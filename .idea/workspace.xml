@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1ab83e-3653-4384-8c56-4e110a274b1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/connection/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/connection/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/connection/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallpaper.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/fahad/wallpaper.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,7 @@
       <workItem from="1583712592698" duration="37499000" />
       <workItem from="1583943759354" duration="5990000" />
       <workItem from="1583972185723" duration="9358000" />
+      <workItem from="1584015359438" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="as">
       <created>1583719235216</created>

